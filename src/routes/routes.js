@@ -3,7 +3,6 @@ const { showInformation, showFrase, inicio } = require('../controllers/PokeContr
 
 const router = Router();
 
-router.get('/', inicio);
 router.get('/pokeinfo', showInformation);
 router.get('/pokefrase', showFrase);
 
