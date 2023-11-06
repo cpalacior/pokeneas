@@ -1,8 +1,9 @@
 const { Router } = require('express');
-const { showInformation, showFrase } = require('../controllers/PokeController');
+const { showInformation, showFrase, inicio } = require('../controllers/PokeController');
 
 const router = Router();
 
+router.get('/', inicio);
 router.get('/pokeinfo', showInformation);
 router.get('/pokefrase', showFrase);
 

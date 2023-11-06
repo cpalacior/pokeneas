@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+    <link>
+        <title>Pokeneas</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../public/css/global.css">
+        <style>
+            body {
+                background-color: #f0f0f2;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 600px;
+                margin: 5em auto;
+                padding: 2em;
+                background-color: #fdfdff;
+                border-radius: 0.5em;
+                box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <img class="imagen" src="<%= pokenea.imagen %>" />
+            </div>
+            <div>
+                <p class="frase"><%= pokenea.frase %></p>
+            </div>
+            <div>
+                <p class="contenedor">contenedor: <%= contenedor %></p>
+            </div>
+        </div>
+    </body>
+</html>
