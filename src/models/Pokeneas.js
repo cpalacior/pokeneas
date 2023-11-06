@@ -21,7 +21,7 @@ let pokeneas = [
         'altura': 0.2,
         'habilidad': {'Huge Power': 'doubles the power of the physical atacks'},
         'imagen': 'https://storage.googleapis.com/pokeneas_cpalacior/frijol.jpg',
-        'frase':'Si la vida te da limones, haz limonada',
+        'frase':'Si la vida te da limones, haz limonada.',
     },
     {
         'id': 4,
@@ -29,7 +29,7 @@ let pokeneas = [
         'altura': 0.7,
         'habilidad': {'Hyper Cutter': 'prevents the other pokeneas to reduce its atack'},
         'imagen': 'https://storage.googleapis.com/pokeneas_cpalacior/machete.jpg',
-        'frase':'Ayer peleé con el diablo, que dicen que es muy bravo. Le pegué una machetera que yo me quedé asombrado',
+        'frase':'Ayer peleé con el diablo, que dicen que es muy bravo. Le pegué una machetera que yo me quedé asombrado.',
     },
     {
         'id': 5,
@@ -37,7 +37,7 @@ let pokeneas = [
         'altura': 5.1,
         'habilidad': 'Cute Charm',
         'imagen': 'https://storage.googleapis.com/pokeneas_cpalacior/orquidea.jpg',
-        'frase':'Me voy para Medellín, a la feria de las flores. Me voy a encontrar allí, mis querencias, mis amores',
+        'frase':'Me voy para Medellín, a la feria de las flores. Me voy a encontrar allí, mis querencias, mis amores.',
     },
     {
         'id': 6,
@@ -53,7 +53,7 @@ let pokeneas = [
         'altura': 4,
         'habilidad': {'Vital Spirit': 'the determination prevents it to fall sleep'},
         'imagen': 'https://storage.googleapis.com/pokeneas_cpalacior/tinto.jpg',
-        'frase': 'Vámonos pal infierno, aunque no sea eterno. Suave, bien, bien, que nadie como tú me sabe hacer el café',
+        'frase': 'Vámonos pal infierno, aunque no sea eterno. Suave, bien, bien, que nadie como tú me sabe hacer el café.',
     },
 ];
 
